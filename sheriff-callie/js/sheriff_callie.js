@@ -23390,7 +23390,7 @@ define('libs/gameConfig/gameTracking',['require','exports','module'],function (r
         // before sending tracking we will set any cookie info we need to
         document.cookie = gamenametitle + "=true";
 
-    	var trackingHash = "http://log.data.disney.com/cp?";
+    	var trackingHash = "#";
         trackingHash += trackingVars + "&" + allEventVars;
         
         var i = new Image();
