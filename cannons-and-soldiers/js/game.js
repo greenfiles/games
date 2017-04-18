@@ -5031,3 +5031,5 @@ GameState.prototype.resize = function() {
     GameState.parent.resize.call(this);
     Account.instance.getEntity("Scene01").resize()
 };
+
+console.log('Greenish Games - games.greenish.xyz -  Copyright 2017' );
