@@ -1,2 +1,2 @@
-# Wanna License More Games? 
-# Contact: greenishgames.envato@gmail.com
+# Wanna License Games? 
+# Contact: contact@greenish.xyz
