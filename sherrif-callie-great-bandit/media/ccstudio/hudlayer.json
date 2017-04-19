@@ -1,0 +1,444 @@
+{
+  "ID": "44b32256-7efc-4d6a-b0ec-391890252508",
+  "Version": "2.3.2.3",
+  "Name": "hudlayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 500,
+        "Speed": 1.0,
+        "ActivedAnimationName": "callieProgress",
+        "Timelines": [
+          {
+            "ActionTag": 82212011,
+            "Property": "Position",
+            "Frames": [
+              {
+                "X": 211.7927,
+                "Y": 460.4098,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": 676.7936,
+                "Y": 460.4098,
+                "FrameIndex": 500,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          }
+        ],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [
+        {
+          "StartIndex": 0,
+          "EndIndex": 100,
+          "Name": "callieProgress",
+          "ctype": "AnimationInfoData"
+        }
+      ],
+      "ObjectData": {
+        "Tag": 17,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "images/hud_bg.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 464.7725,
+              "Y": 463.82
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5008,
+              "Y": 0.9276
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -3.7275,
+            "RightMargin": -5.2725,
+            "TopMargin": -4.32,
+            "BottomMargin": 423.32,
+            "Tag": 19,
+            "ActionTag": -890196844,
+            "Size": {
+              "X": 937.0,
+              "Y": 81.0
+            },
+            "Name": "hud_bg_2",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "images/hud_help.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "images/hud_help.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "images/hud_help.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9Width": 64,
+            "Scale9Height": 65,
+            "OutlineSize": 0,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "G": 127,
+              "B": 80
+            },
+            "ShadowOffsetX": 0.0,
+            "ShadowOffsetY": 0.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 811.8972,
+              "Y": 464.814
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8749,
+              "Y": 0.9296
+            },
+            "PreSize": {
+              "X": 0.069,
+              "Y": 0.13
+            },
+            "LeftMargin": 779.8972,
+            "RightMargin": 84.1028,
+            "TopMargin": 2.686,
+            "BottomMargin": 432.314,
+            "Tag": 21,
+            "ActionTag": 1987685799,
+            "Size": {
+              "X": 64.0,
+              "Y": 65.0
+            },
+            "Name": "helpButton",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "images/hud_sound_off.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "images/hud_sound.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "images/hud_sound.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9Width": 64,
+            "Scale9Height": 65,
+            "OutlineSize": 0,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "G": 127,
+              "B": 80
+            },
+            "ShadowOffsetX": 0.0,
+            "ShadowOffsetY": 0.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 883.9351,
+              "Y": 465.4171
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.9525,
+              "Y": 0.9308
+            },
+            "PreSize": {
+              "X": 0.069,
+              "Y": 0.13
+            },
+            "LeftMargin": 851.9351,
+            "RightMargin": 12.0649,
+            "TopMargin": 2.0829,
+            "BottomMargin": 432.9171,
+            "Tag": 22,
+            "ActionTag": 2067986489,
+            "Size": {
+              "X": 64.0,
+              "Y": 65.0
+            },
+            "Name": "soundButton",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "images/hud_rope.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 426.1835,
+              "Y": 473.4093
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4592,
+              "Y": 0.9468
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 157.6835,
+            "RightMargin": 233.3165,
+            "TopMargin": 7.5907,
+            "BottomMargin": 454.4093,
+            "Tag": 23,
+            "ActionTag": -993791784,
+            "Size": {
+              "X": 537.0,
+              "Y": 38.0
+            },
+            "Name": "rope",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "images/hud_callie.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 211.7927,
+              "Y": 460.4098
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2282,
+              "Y": 0.9208
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 158.7927,
+            "RightMargin": 663.2073,
+            "TopMargin": 5.0902,
+            "BottomMargin": 425.9098,
+            "Tag": 24,
+            "ActionTag": 82212011,
+            "Size": {
+              "X": 106.0,
+              "Y": 69.0
+            },
+            "Name": "callie",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "images/hud_bg_frame.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 722.3027,
+              "Y": 464.2176
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.7783,
+              "Y": 0.9284
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 681.3027,
+            "RightMargin": 164.6973,
+            "TopMargin": 2.2824,
+            "BottomMargin": 430.7176,
+            "Tag": 26,
+            "ActionTag": -685022992,
+            "Size": {
+              "X": 82.0,
+              "Y": 67.0
+            },
+            "Name": "badguy_frame",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "images/nuggetcountbg.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 76.9815,
+              "Y": 460.9282
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.083,
+              "Y": 0.9219
+            },
+            "PreSize": {
+              "X": 0.1455,
+              "Y": 0.174
+            },
+            "LeftMargin": 11.4815,
+            "RightMargin": 785.5185,
+            "TopMargin": 2.5718,
+            "BottomMargin": 424.4282,
+            "Tag": 27,
+            "ActionTag": 1354857871,
+            "Size": {
+              "X": 131.0,
+              "Y": 73.0
+            },
+            "Name": "collect_frame",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 928.0,
+          "Y": 500.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "images/hud_bg.png",
+        "images/hud_bg_frame.png",
+        "images/hud_callie.png",
+        "images/hud_help.png",
+        "images/hud_rope.png",
+        "images/hud_sound.png",
+        "images/hud_sound_off.png",
+        "images/nuggetcountbg.png"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Layer"
+}

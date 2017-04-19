@@ -1,0 +1,216 @@
+{
+  "ID": "31b25daf-2fd4-486d-8c42-34d690f5bae1",
+  "Version": "2.3.2.3",
+  "Name": "signalscene",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 259,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "images/strongSignalScreen.jpg",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 462.5014,
+              "Y": 250.067
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4984,
+              "Y": 0.5001
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -1.4986,
+            "RightMargin": 1.4986,
+            "TopMargin": -0.067,
+            "BottomMargin": 0.067,
+            "Tag": 35,
+            "ActionTag": 1775211978,
+            "Size": {
+              "X": 928.0,
+              "Y": 500.0
+            },
+            "Name": "strongSignalScreen_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "images/playbutton.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "images/playbutton.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "images/playbutton.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9Width": 188,
+            "Scale9Height": 179,
+            "OutlineSize": 0,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "G": 127,
+              "B": 80
+            },
+            "ShadowOffsetX": 0.0,
+            "ShadowOffsetY": 0.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 469.2666,
+              "Y": 139.0896
+            },
+            "Scale": {
+              "ScaleX": 0.9231,
+              "ScaleY": 0.9231
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5057,
+              "Y": 0.2782
+            },
+            "PreSize": {
+              "X": 0.2026,
+              "Y": 0.358
+            },
+            "LeftMargin": 375.2666,
+            "RightMargin": 364.7334,
+            "TopMargin": 271.4104,
+            "BottomMargin": 49.5896,
+            "CallBackType": "Touch",
+            "CallBackName": "playButton",
+            "Tag": 51,
+            "ActionTag": 1959586841,
+            "Size": {
+              "X": 188.0,
+              "Y": 179.0
+            },
+            "Name": "Button_1",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "IsCustomSize": true,
+            "FontSize": 36,
+            "LabelText": "Note: For the best gameplay experience, make sure you have a fast Internet connection with a strong signal.",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "fonts/kengwin.ttf",
+              "Plist": ""
+            },
+            "HorizontalAlignmentType": "HT_Center",
+            "VerticalAlignmentType": "VT_Center",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 464.0002,
+              "Y": 324.3152
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.6486
+            },
+            "PreSize": {
+              "X": 0.8405,
+              "Y": 0.368
+            },
+            "HorizontalEdge": "BothEdge",
+            "LeftMargin": 74.0002,
+            "RightMargin": 73.9999,
+            "TopMargin": 83.6848,
+            "BottomMargin": 232.3152,
+            "Tag": 4,
+            "ActionTag": 1647701366,
+            "Size": {
+              "X": 780.0,
+              "Y": 184.0
+            },
+            "Name": "signalText",
+            "ctype": "TextObjectData"
+          }
+        ],
+        "Size": {
+          "X": 928.0,
+          "Y": 500.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "fonts/kengwin.ttf",
+        "images/playbutton.png",
+        "images/strongSignalScreen.jpg"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Scene"
+}

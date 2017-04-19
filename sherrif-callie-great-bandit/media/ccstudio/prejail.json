@@ -1,0 +1,328 @@
+{
+  "ID": "6250b2a3-6f9e-40f4-b0fd-613c8b21876d",
+  "Version": "2.3.2.3",
+  "Name": "prejail",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 120,
+        "Speed": 1.0,
+        "ActivedAnimationName": "zoom",
+        "Timelines": [
+          {
+            "ActionTag": -182082037,
+            "Property": "Position",
+            "Frames": [
+              {
+                "X": 448.3721,
+                "Y": 260.234,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": 446.2263,
+                "Y": 260.234,
+                "FrameIndex": 120,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -182082037,
+            "Property": "Scale",
+            "Frames": [
+              {
+                "X": 0.7095,
+                "Y": 0.7095,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.7353,
+                "Y": 0.7353,
+                "FrameIndex": 120,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": 583945946,
+            "Property": "Position",
+            "Frames": [
+              {
+                "X": 526.225,
+                "Y": 265.7405,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": 532.812,
+                "Y": 286.3586,
+                "FrameIndex": 120,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": 583945946,
+            "Property": "Scale",
+            "Frames": [
+              {
+                "X": 0.8249,
+                "Y": 0.8249,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.9748,
+                "Y": 0.9748,
+                "FrameIndex": 120,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": 269200591,
+            "Property": "Position",
+            "Frames": [
+              {
+                "X": 715.607,
+                "Y": 171.9141,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": 743.4352,
+                "Y": 182.0088,
+                "FrameIndex": 120,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": 269200591,
+            "Property": "Scale",
+            "Frames": [
+              {
+                "X": 0.8294,
+                "Y": 0.8294,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 1.0,
+                "Y": 1.0,
+                "FrameIndex": 120,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          }
+        ],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [
+        {
+          "StartIndex": 0,
+          "EndIndex": 120,
+          "Name": "zoom",
+          "ctype": "AnimationInfoData"
+        }
+      ],
+      "ObjectData": {
+        "Tag": 34,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "images/sc-gold-gettin-story-bg.jpg",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 448.3721,
+              "Y": 260.234
+            },
+            "Scale": {
+              "ScaleX": 0.7095,
+              "ScaleY": 0.7095
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4832,
+              "Y": 0.5205
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -226.6279,
+            "RightMargin": -195.3721,
+            "TopMargin": -210.234,
+            "BottomMargin": -189.766,
+            "Tag": 35,
+            "ActionTag": -182082037,
+            "Size": {
+              "X": 1350.0,
+              "Y": 900.0
+            },
+            "Name": "Sprite_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "images/before_jailhouse_toby_peck.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 526.225,
+              "Y": 265.7405
+            },
+            "Scale": {
+              "ScaleX": 0.8249,
+              "ScaleY": 0.8249
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5671,
+              "Y": 0.5315
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 62.225,
+            "RightMargin": -62.225,
+            "TopMargin": -15.7405,
+            "BottomMargin": 15.7405,
+            "Tag": 37,
+            "ActionTag": 583945946,
+            "Size": {
+              "X": 928.0,
+              "Y": 500.0
+            },
+            "Name": "before_jailhouse_toby_peck_3",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "images/sc-sample-silly-servin-bar-callie.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 715.607,
+              "Y": 171.9141
+            },
+            "Scale": {
+              "ScaleX": 0.8294,
+              "ScaleY": 0.8294
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.7711,
+              "Y": 0.3438
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 622.107,
+            "RightMargin": 118.893,
+            "TopMargin": 214.0859,
+            "BottomMargin": 57.9141,
+            "Tag": 36,
+            "ActionTag": 269200591,
+            "Size": {
+              "X": 187.0,
+              "Y": 228.0
+            },
+            "Name": "Sprite_2",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 928.0,
+          "Y": 500.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "images/before_jailhouse_toby_peck.png",
+        "images/sc-gold-gettin-story-bg.jpg",
+        "images/sc-sample-silly-servin-bar-callie.png"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Scene"
+}

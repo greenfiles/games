@@ -1,0 +1,541 @@
+{
+  "ID": "76cc2eed-3ddb-408f-8d3c-a1a11a0582b0",
+  "Version": "2.3.2.3",
+  "Name": "characterstorepopup",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 86,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "images/characterselectpopupbg.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 464.0,
+              "Y": 250.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "HorizontalEdge": "BothEdge",
+            "VerticalEdge": "BothEdge",
+            "Tag": 87,
+            "ActionTag": -2115516437,
+            "Size": {
+              "X": 928.0,
+              "Y": 500.0
+            },
+            "Name": "characterSelectPopupBG_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "Button",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "images/yesbutton.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "images/yesbutton.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "images/yesbutton.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 60,
+            "Scale9Height": 69,
+            "OutlineSize": 0,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 0.0,
+            "ShadowOffsetY": 0.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 464.3823,
+              "Y": 240.2451
+            },
+            "Scale": {
+              "ScaleX": 9.0847,
+              "ScaleY": 5.9766
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5004,
+              "Y": 0.4805
+            },
+            "PreSize": {
+              "X": 0.097,
+              "Y": 0.182
+            },
+            "LeftMargin": 419.3823,
+            "RightMargin": 418.6177,
+            "TopMargin": 214.2549,
+            "BottomMargin": 194.7451,
+            "Tag": 225,
+            "ActionTag": 134364248,
+            "Size": {
+              "X": 90.0,
+              "Y": 91.0
+            },
+            "Alpha": 0,
+            "Name": "Button_1",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "images/nobutton.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "images/nobutton.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "images/nobutton.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 60,
+            "Scale9Height": 69,
+            "OutlineSize": 0,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 0.0,
+            "ShadowOffsetY": 0.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 397.1563,
+              "Y": 95.242
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.428,
+              "Y": 0.1905
+            },
+            "PreSize": {
+              "X": 0.097,
+              "Y": 0.182
+            },
+            "LeftMargin": 352.1563,
+            "RightMargin": 485.8437,
+            "TopMargin": 359.258,
+            "BottomMargin": 49.742,
+            "Tag": 88,
+            "ActionTag": -2146852662,
+            "Size": {
+              "X": 90.0,
+              "Y": 91.0
+            },
+            "Name": "noButton",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "images/yesbuttongrey.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "images/yesbutton.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "images/yesbutton.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 60,
+            "Scale9Height": 69,
+            "OutlineSize": 0,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 0.0,
+            "ShadowOffsetY": 0.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.4941,
+              "ScaleY": 0.4166
+            },
+            "Position": {
+              "X": 554.3643,
+              "Y": 89.4422
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5974,
+              "Y": 0.1789
+            },
+            "PreSize": {
+              "X": 0.097,
+              "Y": 0.182
+            },
+            "LeftMargin": 509.8953,
+            "RightMargin": 328.1047,
+            "TopMargin": 357.4684,
+            "BottomMargin": 51.5316,
+            "Tag": 89,
+            "ActionTag": 645198104,
+            "Size": {
+              "X": 90.0,
+              "Y": 91.0
+            },
+            "Name": "yesButton",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "images/score_nugget.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 483.1286,
+              "Y": 254.2
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5206,
+              "Y": 0.5084
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 458.1286,
+            "RightMargin": 419.8714,
+            "TopMargin": 218.8,
+            "BottomMargin": 227.2,
+            "Tag": 221,
+            "ActionTag": 1470807675,
+            "Size": {
+              "X": 50.0,
+              "Y": 54.0
+            },
+            "Name": "score_nugget_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "IsCustomSize": true,
+            "FontSize": 65,
+            "LabelText": "50",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "fonts/kengwin.ttf",
+              "Plist": ""
+            },
+            "HorizontalAlignmentType": "HT_Center",
+            "VerticalAlignmentType": "VT_Center",
+            "OutlineSize": 0,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 0.0,
+            "ShadowOffsetY": 0.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 569.0367,
+              "Y": 244.5387
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 125,
+              "G": 72,
+              "B": 56
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.6132,
+              "Y": 0.4891
+            },
+            "PreSize": {
+              "X": 0.1347,
+              "Y": 0.156
+            },
+            "LeftMargin": 506.5367,
+            "RightMargin": 296.4633,
+            "TopMargin": 216.4613,
+            "BottomMargin": 205.5387,
+            "Tag": 223,
+            "ActionTag": -1699697244,
+            "Size": {
+              "X": 125.0,
+              "Y": 78.0
+            },
+            "Name": "nuggetCount",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "images/sc-mail-gameplay-toby.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 360.2665,
+              "Y": 255.2745
+            },
+            "Scale": {
+              "ScaleX": 0.8277,
+              "ScaleY": 0.8277
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3882,
+              "Y": 0.5105
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 279.2665,
+            "RightMargin": 486.7335,
+            "TopMargin": 146.2255,
+            "BottomMargin": 156.7745,
+            "Tag": 224,
+            "ActionTag": -1681427548,
+            "Size": {
+              "X": 162.0,
+              "Y": 197.0
+            },
+            "Name": "character",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "images/yesbuttongrey.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "images/yesbutton.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "images/yesbutton.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 60,
+            "Scale9Height": 69,
+            "DisplayState": false,
+            "OutlineSize": 0,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 0.0,
+            "ShadowOffsetY": 0.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.4941,
+              "ScaleY": 0.4166
+            },
+            "Position": {
+              "X": 554.6831,
+              "Y": 90.7377
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5977,
+              "Y": 0.1815
+            },
+            "PreSize": {
+              "X": 0.097,
+              "Y": 0.182
+            },
+            "LeftMargin": 510.2141,
+            "RightMargin": 327.7859,
+            "TopMargin": 356.1729,
+            "BottomMargin": 52.8271,
+            "Tag": 314,
+            "ActionTag": 1123490393,
+            "Size": {
+              "X": 90.0,
+              "Y": 91.0
+            },
+            "Name": "yesButtonDisabled",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 928.0,
+          "Y": 500.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "fonts/kengwin.ttf",
+        "images/characterselectpopupbg.png",
+        "images/nobutton.png",
+        "images/sc-mail-gameplay-toby.png",
+        "images/score_nugget.png",
+        "images/yesbutton.png",
+        "images/yesbuttongrey.png"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Layer"
+}

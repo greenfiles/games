@@ -1,0 +1,148 @@
+{
+  "ID": "30894c5a-ae45-45ed-bb7e-1f1fec348baa",
+  "Version": "2.3.2.3",
+  "Name": "mainscene",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "images/newtitle-greeneyes-button.jpg",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 464.0,
+              "Y": 250.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 6,
+            "ActionTag": -1521599171,
+            "Size": {
+              "X": 928.0,
+              "Y": 500.0
+            },
+            "Name": "CallieTitle_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "images/playbutton.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "images/playbutton.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "images/playbutton.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9Width": 188,
+            "Scale9Height": 179,
+            "OutlineSize": 0,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "G": 127,
+              "B": 80
+            },
+            "ShadowOffsetX": 0.0,
+            "ShadowOffsetY": 0.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 473.6048,
+              "Y": 132.425
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5103,
+              "Y": 0.2649
+            },
+            "PreSize": {
+              "X": 0.2026,
+              "Y": 0.358
+            },
+            "LeftMargin": 379.6048,
+            "RightMargin": 360.3952,
+            "TopMargin": 278.075,
+            "BottomMargin": 42.925,
+            "CallBackType": "Touch",
+            "CallBackName": "playButton",
+            "Tag": 6,
+            "ActionTag": 624250135,
+            "Size": {
+              "X": 188.0,
+              "Y": 179.0
+            },
+            "Name": "Button_1",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 928.0,
+          "Y": 500.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "images/newtitle-greeneyes-button.jpg",
+        "images/playbutton.png"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Scene"
+}

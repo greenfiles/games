@@ -1,0 +1,887 @@
+{
+  "ID": "9fa9f62b-6143-455c-b7fb-fe65c5323dcf",
+  "Version": "2.3.2.3",
+  "Name": "sortgame",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 37,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "images/sc-mail-story-bg.jpg",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 490.0689,
+              "Y": 249.2098
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5281,
+              "Y": 0.4984
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -84.9311,
+            "RightMargin": -137.0688,
+            "TopMargin": 0.7902,
+            "BottomMargin": -0.7902,
+            "Tag": 38,
+            "ActionTag": 901310975,
+            "Size": {
+              "X": 1150.0,
+              "Y": 500.0
+            },
+            "Name": "Sprite_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "images/sc-gold-gettin-game-barrel-2.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 288.413,
+              "Y": 193.6472
+            },
+            "Scale": {
+              "ScaleX": 1.4537,
+              "ScaleY": 1.4537
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3108,
+              "Y": 0.3873
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 187.413,
+            "RightMargin": 538.587,
+            "TopMargin": 248.3528,
+            "BottomMargin": 135.6472,
+            "Tag": 40,
+            "ActionTag": 747663379,
+            "Size": {
+              "X": 202.0,
+              "Y": 116.0
+            },
+            "Name": "b1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "images/sc-gold-gettin-game-barrel-2.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 642.41,
+              "Y": 198.4749
+            },
+            "Scale": {
+              "ScaleX": 1.438,
+              "ScaleY": 1.438
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.6923,
+              "Y": 0.3969
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 541.41,
+            "RightMargin": 184.59,
+            "TopMargin": 243.5251,
+            "BottomMargin": 140.4749,
+            "Tag": 41,
+            "ActionTag": 1995085076,
+            "Size": {
+              "X": 202.0,
+              "Y": 116.0
+            },
+            "Name": "b3",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "images/sc-gold-gettin-game-barrel-2.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 464.0,
+              "Y": 193.855
+            },
+            "Scale": {
+              "ScaleX": 1.4537,
+              "ScaleY": 1.4537
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.3877
+            },
+            "PreSize": {
+              "X": 0.2177,
+              "Y": 0.232
+            },
+            "HorizontalEdge": "BothEdge",
+            "LeftMargin": 363.0,
+            "RightMargin": 363.0,
+            "TopMargin": 248.145,
+            "BottomMargin": 135.855,
+            "Tag": 30,
+            "ActionTag": 1865468555,
+            "Size": {
+              "X": 202.0,
+              "Y": 116.0
+            },
+            "Name": "b2",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "images/corn1.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 282.3096,
+              "Y": 204.9409
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3042,
+              "Y": 0.4099
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 223.3096,
+            "RightMargin": 586.6904,
+            "TopMargin": 248.5591,
+            "BottomMargin": 158.4409,
+            "Tag": 33,
+            "ActionTag": 284248965,
+            "Size": {
+              "X": 118.0,
+              "Y": 93.0
+            },
+            "Name": "label1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "images/corn2.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 461.0,
+              "Y": 203.4097
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4968,
+              "Y": 0.4068
+            },
+            "PreSize": {
+              "X": 0.1272,
+              "Y": 0.186
+            },
+            "LeftMargin": 402.0,
+            "RightMargin": 408.0,
+            "TopMargin": 250.0903,
+            "BottomMargin": 156.9097,
+            "Tag": 34,
+            "ActionTag": -1289766858,
+            "Size": {
+              "X": 118.0,
+              "Y": 93.0
+            },
+            "Name": "label2",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "images/corn3.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 643.08,
+              "Y": 209.535
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.693,
+              "Y": 0.4191
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 584.08,
+            "RightMargin": 225.92,
+            "TopMargin": 243.965,
+            "BottomMargin": 163.035,
+            "Tag": 35,
+            "ActionTag": -1871769422,
+            "Size": {
+              "X": 118.0,
+              "Y": 93.0
+            },
+            "Name": "label3",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "images/sorting_corn1.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 147.4629,
+              "Y": 82.143
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1589,
+              "Y": 0.1643
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 83.4629,
+            "RightMargin": 716.5371,
+            "TopMargin": 353.857,
+            "BottomMargin": 18.143,
+            "Tag": 36,
+            "ActionTag": -886998064,
+            "Size": {
+              "X": 128.0,
+              "Y": 128.0
+            },
+            "Name": "p1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "images/sorting_corn2.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 405.0666,
+              "Y": 82.143
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4365,
+              "Y": 0.1643
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 341.0666,
+            "RightMargin": 458.9334,
+            "TopMargin": 353.857,
+            "BottomMargin": 18.143,
+            "Tag": 37,
+            "ActionTag": -1561370331,
+            "Size": {
+              "X": 128.0,
+              "Y": 128.0
+            },
+            "Name": "p3",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "images/sorting_corn3.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 533.8688,
+              "Y": 86.0818
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5753,
+              "Y": 0.1722
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 469.8688,
+            "RightMargin": 330.1312,
+            "TopMargin": 349.9182,
+            "BottomMargin": 22.0818,
+            "Tag": 38,
+            "ActionTag": -319747116,
+            "Size": {
+              "X": 128.0,
+              "Y": 128.0
+            },
+            "Name": "p4",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "images/sorting_corn3.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 791.4747,
+              "Y": 82.143
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8529,
+              "Y": 0.1643
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 727.4747,
+            "RightMargin": 72.5253,
+            "TopMargin": 353.857,
+            "BottomMargin": 18.143,
+            "Tag": 39,
+            "ActionTag": 1384089554,
+            "Size": {
+              "X": 128.0,
+              "Y": 128.0
+            },
+            "Name": "p6",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "images/sorting_corn2.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 276.2645,
+              "Y": 80.1736
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2977,
+              "Y": 0.1603
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 212.2645,
+            "RightMargin": 587.7355,
+            "TopMargin": 355.8264,
+            "BottomMargin": 16.1736,
+            "Tag": 40,
+            "ActionTag": 1066208038,
+            "Size": {
+              "X": 128.0,
+              "Y": 128.0
+            },
+            "Name": "p2",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "images/sorting_corn1.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 662.6724,
+              "Y": 82.143
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.7141,
+              "Y": 0.1643
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 598.6724,
+            "RightMargin": 201.3276,
+            "TopMargin": 353.857,
+            "BottomMargin": 18.143,
+            "Tag": 41,
+            "ActionTag": 705534509,
+            "Size": {
+              "X": 128.0,
+              "Y": 128.0
+            },
+            "Name": "p5",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "images/sc-gold-gettin-game-barrel-2.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 283.5123,
+              "Y": 213.2804
+            },
+            "Scale": {
+              "ScaleX": 0.5664,
+              "ScaleY": 1.4537
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3055,
+              "Y": 0.4266
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 182.5123,
+            "RightMargin": 543.4877,
+            "TopMargin": 228.7196,
+            "BottomMargin": 155.2804,
+            "Tag": 47,
+            "ActionTag": 1727464865,
+            "Size": {
+              "X": 202.0,
+              "Y": 116.0
+            },
+            "Alpha": 0,
+            "Name": "d1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "images/sc-gold-gettin-game-barrel-2.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 457.0,
+              "Y": 207.2932
+            },
+            "Scale": {
+              "ScaleX": 0.5664,
+              "ScaleY": 1.4537
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4925,
+              "Y": 0.4146
+            },
+            "PreSize": {
+              "X": 0.2177,
+              "Y": 0.232
+            },
+            "LeftMargin": 356.0,
+            "RightMargin": 370.0,
+            "TopMargin": 234.7068,
+            "BottomMargin": 149.2932,
+            "Tag": 48,
+            "ActionTag": 1147319648,
+            "Size": {
+              "X": 202.0,
+              "Y": 116.0
+            },
+            "Alpha": 0,
+            "Name": "d2",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "images/sc-gold-gettin-game-barrel-2.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 638.96,
+              "Y": 213.3435
+            },
+            "Scale": {
+              "ScaleX": 0.5664,
+              "ScaleY": 1.4537
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.6885,
+              "Y": 0.4267
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 537.96,
+            "RightMargin": 188.04,
+            "TopMargin": 228.6565,
+            "BottomMargin": 155.3435,
+            "Tag": 49,
+            "ActionTag": 786335450,
+            "Size": {
+              "X": 202.0,
+              "Y": 116.0
+            },
+            "Alpha": 0,
+            "Name": "d3",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "images/clockanim1.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 855.9493,
+              "Y": 371.5836
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.9224,
+              "Y": 0.7432
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 803.9493,
+            "RightMargin": 20.0507,
+            "TopMargin": 76.4164,
+            "BottomMargin": 319.5836,
+            "Tag": 169,
+            "ActionTag": 1085365163,
+            "Size": {
+              "X": 104.0,
+              "Y": 104.0
+            },
+            "Name": "clockAnimation",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "images/nextbutton.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "images/nextbutton.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "images/nextbutton.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 60,
+            "Scale9Height": 69,
+            "OutlineSize": 0,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 0.0,
+            "ShadowOffsetY": 0.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1009.9995,
+              "Y": 222.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 1.0884,
+              "Y": 0.444
+            },
+            "PreSize": {
+              "X": 0.097,
+              "Y": 0.182
+            },
+            "LeftMargin": 964.9995,
+            "RightMargin": -126.9995,
+            "TopMargin": 232.5,
+            "BottomMargin": 176.5,
+            "Tag": 53,
+            "ActionTag": -960800685,
+            "Size": {
+              "X": 90.0,
+              "Y": 91.0
+            },
+            "Name": "nextButton",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 928.0,
+          "Y": 500.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "images/clockanim1.png",
+        "images/corn1.png",
+        "images/corn2.png",
+        "images/corn3.png",
+        "images/nextbutton.png",
+        "images/sc-gold-gettin-game-barrel-2.png",
+        "images/sc-mail-story-bg.jpg",
+        "images/sorting_corn1.png",
+        "images/sorting_corn2.png",
+        "images/sorting_corn3.png"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Scene"
+}

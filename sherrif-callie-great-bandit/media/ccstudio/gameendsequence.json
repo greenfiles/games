@@ -1,0 +1,328 @@
+{
+  "ID": "98e714bc-7a8a-429c-b0dd-f25f4fe01c4b",
+  "Version": "2.3.2.3",
+  "Name": "gameendsequence",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 240,
+        "Speed": 1.0,
+        "ActivedAnimationName": "longzoom",
+        "Timelines": [
+          {
+            "ActionTag": -531025826,
+            "Property": "Position",
+            "Frames": [
+              {
+                "X": 463.9852,
+                "Y": 250.0074,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 3
+                },
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": 463.9833,
+                "Y": 250.0071,
+                "FrameIndex": 240,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -531025826,
+            "Property": "Scale",
+            "Frames": [
+              {
+                "X": 0.9963,
+                "Y": 0.9963,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 3
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 1.3501,
+                "Y": 1.3501,
+                "FrameIndex": 240,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -1234783819,
+            "Property": "Position",
+            "Frames": [
+              {
+                "X": 457.184,
+                "Y": 252.595,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 3
+                },
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": 453.8005,
+                "Y": 253.8811,
+                "FrameIndex": 240,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -1234783819,
+            "Property": "Scale",
+            "Frames": [
+              {
+                "X": 0.6126,
+                "Y": 0.6126,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 3
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.9172,
+                "Y": 0.9172,
+                "FrameIndex": 240,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -549514424,
+            "Property": "Position",
+            "Frames": [
+              {
+                "X": 461.4103,
+                "Y": 253.6513,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 3
+                },
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": 460.1282,
+                "Y": 255.4625,
+                "FrameIndex": 240,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -549514424,
+            "Property": "Scale",
+            "Frames": [
+              {
+                "X": 0.6126,
+                "Y": 0.6126,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 3
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.9172,
+                "Y": 0.9172,
+                "FrameIndex": 240,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          }
+        ],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [
+        {
+          "StartIndex": 0,
+          "EndIndex": 240,
+          "Name": "longzoom",
+          "ctype": "AnimationInfoData"
+        }
+      ],
+      "ObjectData": {
+        "Tag": 38,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "images/game_end_bg.jpg",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 463.9852,
+              "Y": 250.0074
+            },
+            "Scale": {
+              "ScaleX": 0.9963,
+              "ScaleY": 0.9963
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -0.0148,
+            "RightMargin": 0.0148,
+            "TopMargin": -0.0074,
+            "BottomMargin": 0.0074,
+            "Tag": 39,
+            "ActionTag": -531025826,
+            "Size": {
+              "X": 928.0,
+              "Y": 500.0
+            },
+            "Name": "game_end_bg_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "images/game_end_shadows.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 457.184,
+              "Y": 252.595
+            },
+            "Scale": {
+              "ScaleX": 0.6126,
+              "ScaleY": 0.6126
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4927,
+              "Y": 0.5052
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -6.816,
+            "RightMargin": 6.816,
+            "TopMargin": -2.595,
+            "BottomMargin": 2.595,
+            "Tag": 41,
+            "ActionTag": -1234783819,
+            "Size": {
+              "X": 928.0,
+              "Y": 500.0
+            },
+            "Name": "game_end_shadows_3",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "images/game_end_characters.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 461.4103,
+              "Y": 253.6513
+            },
+            "Scale": {
+              "ScaleX": 0.6126,
+              "ScaleY": 0.6126
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4972,
+              "Y": 0.5073
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -2.5897,
+            "RightMargin": 2.5897,
+            "TopMargin": -3.6513,
+            "BottomMargin": 3.6513,
+            "Tag": 40,
+            "ActionTag": -549514424,
+            "Size": {
+              "X": 928.0,
+              "Y": 500.0
+            },
+            "Name": "game_end_characters_2",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 928.0,
+          "Y": 500.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "images/game_end_bg.jpg",
+        "images/game_end_characters.png",
+        "images/game_end_shadows.png"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Scene"
+}

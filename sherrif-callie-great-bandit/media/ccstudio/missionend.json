@@ -1,0 +1,328 @@
+{
+  "ID": "50349182-24c6-467e-9e95-0d34556deee2",
+  "Version": "2.3.2.3",
+  "Name": "missionend",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 240,
+        "Speed": 1.0,
+        "ActivedAnimationName": "zoomIn",
+        "Timelines": [
+          {
+            "ActionTag": -1807926224,
+            "Property": "Position",
+            "Frames": [
+              {
+                "X": 664.298,
+                "Y": 226.2917,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": 664.2968,
+                "Y": 226.2904,
+                "FrameIndex": 240,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -1807926224,
+            "Property": "Scale",
+            "Frames": [
+              {
+                "X": 0.9954,
+                "Y": 0.9954,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 1.3293,
+                "Y": 1.3293,
+                "FrameIndex": 240,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": 466471350,
+            "Property": "Position",
+            "Frames": [
+              {
+                "X": 649.5909,
+                "Y": 132.1766,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": 744.8176,
+                "Y": 132.1761,
+                "FrameIndex": 240,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": 466471350,
+            "Property": "Scale",
+            "Frames": [
+              {
+                "X": 0.9954,
+                "Y": 0.9954,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 2.0243,
+                "Y": 2.0243,
+                "FrameIndex": 240,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": 1749587398,
+            "Property": "Position",
+            "Frames": [
+              {
+                "X": 452.8903,
+                "Y": 119.8853,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": 344.8008,
+                "Y": 107.1802,
+                "FrameIndex": 240,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": 1749587398,
+            "Property": "Scale",
+            "Frames": [
+              {
+                "X": 0.9954,
+                "Y": 0.9954,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 2.0243,
+                "Y": 2.0243,
+                "FrameIndex": 240,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          }
+        ],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [
+        {
+          "StartIndex": 0,
+          "EndIndex": 240,
+          "Name": "zoomIn",
+          "ctype": "AnimationInfoData"
+        }
+      ],
+      "ObjectData": {
+        "Tag": 50,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "images/sc-gold-gettin-story-bg.jpg",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 664.298,
+              "Y": 226.2917
+            },
+            "Scale": {
+              "ScaleX": 0.9954,
+              "ScaleY": 0.9954
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.7158,
+              "Y": 0.4526
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -10.702,
+            "RightMargin": -411.298,
+            "TopMargin": -176.2917,
+            "BottomMargin": -223.7083,
+            "Tag": 51,
+            "ActionTag": -1807926224,
+            "Size": {
+              "X": 1350.0,
+              "Y": 900.0
+            },
+            "Name": "Sprite_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "images/sc-sample-silly-servin-bar-callie.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 649.5909,
+              "Y": 132.1766
+            },
+            "Scale": {
+              "ScaleX": 0.9954,
+              "ScaleY": 0.9954
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.7,
+              "Y": 0.2644
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 556.0909,
+            "RightMargin": 184.9091,
+            "TopMargin": 253.8234,
+            "BottomMargin": 18.1766,
+            "Tag": 52,
+            "ActionTag": 466471350,
+            "Size": {
+              "X": 187.0,
+              "Y": 228.0
+            },
+            "Name": "Sprite_2",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "images/sc-mail-gameplay-toby.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 452.8903,
+              "Y": 119.8853
+            },
+            "Scale": {
+              "ScaleX": 0.9954,
+              "ScaleY": 0.9954
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.488,
+              "Y": 0.2398
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 371.8903,
+            "RightMargin": 394.1097,
+            "TopMargin": 281.6147,
+            "BottomMargin": 21.3853,
+            "Tag": 53,
+            "ActionTag": 1749587398,
+            "Size": {
+              "X": 162.0,
+              "Y": 197.0
+            },
+            "Name": "Sprite_3",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 928.0,
+          "Y": 500.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "images/sc-gold-gettin-story-bg.jpg",
+        "images/sc-mail-gameplay-toby.png",
+        "images/sc-sample-silly-servin-bar-callie.png"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Scene"
+}
