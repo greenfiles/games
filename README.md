@@ -1,2 +1,1 @@
-# Wanna License Games?
-# Contact: contact@greenish.xyz
+404 Error - Page Not Found
