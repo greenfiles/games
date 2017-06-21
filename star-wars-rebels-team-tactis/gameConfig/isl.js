@@ -7,6 +7,7 @@ function runISL(scope) {
                            "home.disney.go.com",
                            "playhousemagazine.it",
                            "greenish.xyz",
+                           "games.greenish.xyz",
                            "disney.sk",
                            "disney.se",
                            "disney.rs",
