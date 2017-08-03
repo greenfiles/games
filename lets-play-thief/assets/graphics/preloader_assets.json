@@ -1,0 +1,118 @@
+{
+    "frames": [
+        {
+            "filename": "background",
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 720,
+                "h": 480
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 720,
+                "h": 480
+            },
+            "sourceSize": {
+                "w": 720,
+                "h": 480
+            }
+        },
+        {
+            "filename": "branding",
+            "frame": {
+                "x": 341,
+                "y": 481,
+                "w": 350,
+                "h": 100
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 350,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 350,
+                "h": 100
+            }
+        },
+        {
+            "filename": "button_play",
+            "frame": {
+                "x": 341,
+                "y": 582,
+                "w": 300,
+                "h": 78
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 300,
+                "h": 78
+            },
+            "sourceSize": {
+                "w": 300,
+                "h": 78
+            }
+        },
+        {
+            "filename": "button_play_muted",
+            "frame": {
+                "x": 0,
+                "y": 702,
+                "w": 300,
+                "h": 78
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 300,
+                "h": 78
+            },
+            "sourceSize": {
+                "w": 300,
+                "h": 78
+            }
+        },
+        {
+            "filename": "logo_main",
+            "frame": {
+                "x": 0,
+                "y": 481,
+                "w": 340,
+                "h": 220
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 340,
+                "h": 220
+            },
+            "sourceSize": {
+                "w": 340,
+                "h": 220
+            }
+        }
+    ],
+    "meta": {
+        "app": "http://www.leshylabs.com/apps/sstool/",
+        "version": "Leshy SpriteSheet Tool v0.8.1",
+        "size": {
+            "w": 720,
+            "h": 780
+        },
+        "scale": 1
+    }
+}

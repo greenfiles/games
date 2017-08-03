@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head class="no-js" lang="en">
+
+    <!-- Meta -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="Dark Valley">
+
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.gif" />
+
+    <title>Video Puzzle - HTML5 Game</title>
+
+    <!-- Whatever you do, do it with style -->
+    <link rel="stylesheet" href="data/css/main.css" />
+    <script type="text/javascript" src="data/js/modernizr-1.7.min.js"></script>
+    
+</head>
+
+<body>
+
+    <!-- hidden video element, used to draw each canvas -->
+    <video width="600" height="300" autobuffer preload="auto" id="screen">
+        <source src="data/video/video.mp4" type="video/mp4;">
+            <source src="data/video/video.webm" type="video/webm;">
+                <source src="data/video/video.ogv" type="video/ogv;">
+    </video>
+    <!--/hidden video element -->
+
+    <section id="loading">
+
+        <h1>Puzzle</h1>
+
+        <!-- instructions -->
+        <div id="instructions">
+            <h2>HOW TO PLAY</h2>
+            <ol id="steps">
+                <li>
+                    <p>Drag and drop the pieces of the video to their correct location before time runs out.</p>
+                </li>
+                <li>
+                    <p>When the correct piece is in the correct cell it will lock into place.</p>
+                </li>
+                <li>
+                    <p>If you can complete the puzzle in time you will be rewarded with a free download of the song.</p>
+                </li>
+            </ol>
+        </div>
+        <!--/instructions -->
+
+        <!-- loader -->
+        <div id="loader">
+            <ul id="status">
+                <li>DATA RECEIVED</li>
+                <li>VIDEO READY TO PLAY</li>
+                <li>CLICK TO START</li>
+            </ul>
+            <img id="indicator" src="data/images/indicator.gif" width="50" height="50" alt="" />
+        </div>
+        <!--/loader -->
+    </section>
+
+    <section id="main">
+        <!-- header -->
+        <header>
+            <img src="data/images/logo.gif" width="114" height="28" alt="Eighteen Pieces" />
+        </header>
+        <!--/header -->
+
+        <!-- puzzle -->
+        <div id="puzzle">
+        </div>
+        <!--/puzzle -->
+
+        <!-- about -->
+        <div id="about">
+            <time id="countdown">00:00</time>
+            <h2>ABOUT THIS PROJECT</h2>
+            <p>This is one of the most challenging and difficult puzzle game you will find in the HTML5 catalogue.
+                <br /><a href="#" target="_blank">Listen To More &rarr;</a>
+            </p>
+            <p>This puzzle is an HTML5 game created by DarkValleyGames
+                <br /><a href="#" target="_blank">Learn More &rarr;</a>
+            </p>
+            <img id="countdown-fg" src="data/images/countdown-fg.png" width="200" height="100" alt="" />
+        </div>
+        <!--/about -->
+
+        <!-- controls -->
+        <button id="mute-btn"></button>
+        <button id="replay-btn">REPLAY THE COMPLETED VIDEO?</button>
+        <!--/controls -->
+
+        <!-- footer -->
+        <footer>
+            <p>Powered By <a href="#" target="_blank">Dark Valley</a>.
+                <br/>COPYRIGHT &copy; 2017 ALL RIGHTS RESERVED.</p>
+        </footer>
+        <!--/footer -->
+    </section>
+
+    <!-- win -->
+    <aside id="win">
+        <h2>SWEET JOB, DUDE!</h2>
+        <p>Against all odds, you've managed to solve the puzzle. The reward? This file:</p>
+        <p><a href="javascript:void(0);" id="download">Download File &nbsp; &darr;</a>
+        </p>
+    </aside>
+    <!--/win -->
+
+    <!-- fail -->
+    <aside id="fail">
+        <h2>YOU TOTALLY BLEW IT!</h2>
+        <p>If this was a test, you would've got an F+. Your retribution? Another try:</p>
+        <p><a href="javascript:window.location.href = window.location.href;">Try Again &nbsp; &#x21A9;</a>
+        </p>
+    </aside>
+    <!--/fail -->
+
+    <!-- JavaScripts -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="data/js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="data/js/main.js"></script>
+
+
+</body>
+
+</html>
