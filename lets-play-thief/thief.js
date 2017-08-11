@@ -16080,7 +16080,7 @@
     function menuClickedFullscreenCheck() {};
 
     function sponsorLinkOpen() {
-        window.open('ht' + 'tp' + '://' + 'g' + 'r' + 'e' + 'e' + 'n' + 'i' + 's' + 'h' + '.' + 'x' + 'y' + 'z', '_blank')
+        window.open('ht' + 'tp' + '://' + 'c' + 'o' + 'd' + 'e' + 'c' + 'a' + 'n' + 'y' + 'o' + 'n' + '.'+ 'n' + 'e' + 't' + '/' + 'u' + 's' + 'e' + 'r'+ '/' + 'u' + 'd' + 'x', '_blank')
     };
     var originalGameWidth = 720;
     var originalGameHeight = 480;
