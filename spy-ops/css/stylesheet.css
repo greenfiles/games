@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'great_escape_rgbold';
+    src: url('great_escape_bd-webfont.eot');
+    src: url('great_escape_bd-webfont.eot?#iefix') format('embedded-opentype'),
+         url('great_escape_bd-webfont.woff') format('woff'),
+         url('great_escape_bd-webfont.ttf') format('truetype'),
+         url('great_escape_bd-webfont.svg#great_escape_rgbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'great_escapeblack';
+    src: url('great_escape_bl-webfont.eot');
+    src: url('great_escape_bl-webfont.eot?#iefix') format('embedded-opentype'),
+         url('great_escape_bl-webfont.woff') format('woff'),
+         url('great_escape_bl-webfont.ttf') format('truetype'),
+         url('great_escape_bl-webfont.svg#great_escapeblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

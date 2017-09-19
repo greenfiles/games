@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>K.C. Undercover - Spy Ops - HTML5 Game</title>
+
+    <meta charset="utf-8">
+    <meta name="apple-mobile-web-app-title" content="K.C. Undercover: Spy Ops">
+    <meta name="robots" content="noindex,nofollow" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="viewport" content="minimal-ui, initial-scale=1, maximum-scale=1, width=device-width, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="HandheldFriendly" content="true" />
+
+    <!-- #GAME SCRIPTS 1 START# -->
+    <script type="text/javascript" src="js/lib/swfobject.js"></script>
+    <script type="text/javascript" src="js/lib/soundmanager2-nodebug-jsmin.js"></script>
+    <script type="text/javascript" src="js/game.js"></script>
+    <script>
+        window.addEventListener("touchmove", function(event) {
+            event.preventDefault();
+        }, false);
+        if (typeof window.devicePixelRatio != 'undefined' && window.devicePixelRatio > 2) {
+            var meta = document.getElementById("viewport");
+            meta.setAttribute('content', 'width=device-width, initial-scale=' + (2 / window.devicePixelRatio) + ', user-scalable=no');
+        }
+    </script>
+    <!-- #GAME SCRIPTS 1 END# -->
+    <!-- #GAME CSS START# -->
+    <link rel="stylesheet" type="text/css" id="styleCss" href="css/style.css">
+    <link rel="stylesheet" type="text/css" id="gameCss" href="css/game.css">
+    <link rel="stylesheet" type="text/css" id="fontCss" href="css/stylesheet.css">
+    <!-- #GAME CSS END# -->
+</head>
+
+<body>
+
+    <!-- #GAME DIVS START# -->
+    <div id="game-content"></div>
+    <!-- #GAME DIVS END# -->
+
+    <!-- #GAME SCRIPTS 2 START# -->
+    <script type="text/javascript">
+        function gameStart() {
+            try {
+                window.AudioContext = window.AudioContext || window.webkitAudioContext;
+                window.audioContextInstance = new AudioContext();
+            } catch (e) {
+
+            }
+
+            runGame();
+        }
+    </script>
+    <!-- #GAME SCRIPTS 2 END# -->
+    <script type="text/javascript">
+        // playdom tracking variables
+        /* Do we use playdom?
+		var vars = {"tag":"game_action", "action":"start", "context":gamenametitle};
+		window.playdomTracking(vars); // playdom tracking
+		*/
+
+        gameStart();
+    </script>
+
+</body>
+
+</html>

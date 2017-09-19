@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gameConfig>
+	
+	<!--
+	0 = Voice Overs; No Subtitles
+	1 = No Voice Overs; Subtitles
+	2 = Voice Overs; Subtitles -->
+	<property name="speechMode" value="1" />
+
+	<property name="rightToLeft" value="0" />
+	
+	<property name="gameWidth" value="1024" />
+	<property name="gameHeight" value="682" />
+	
+	<property name="keyLeft" value="37" />
+	<property name="keyRight" value="39" />
+	<property name="keyUp" value="38" />
+	<property name="keyDown" value="40" />
+	<property name="keyC" value="67" />
+	<property name="keySpace" value="32" />
+
+	<property name="isLandscapeAllowed" value="1" />
+	<property name="isPortraitAllowed" value="0" />
+	
+	<property name="debugDraw" value="0" /> <!-- values: 1; 0 -->
+	<property name="debugCheats" value="0" />
+	<property name="forceOrientation" value="NONE" /> <!-- values: HORIZONTAL; VERTICAL; NONE-->
+	<property name="scaleToScreenOnDesktop" value="0" /> <!-- values: 1; 0 -->
+	
+	<property name="isLandscapeAllowedIPad" value="1" />
+	<property name="isPortraitAllowedIPad" value="0" />
+	
+	<property name="isLandscapeAllowedIPhone" value="1" />
+	<property name="isPortraitAllowedIPhone" value="0" />
+	
+	<property name="homeButtonEnabled" value="0" /> <!-- values: 1; 0 -->
+	<property name="homeUrl" value="http://disneyxd.disney.com" />
+
+	<property name="browserTimerUpdate" value="0" />
+	
+	<property name="numLevels" value="5" />
+	<property name="numLevelsAvailable" value="5" />
+	
+	<!-- Gameplay -->
+	<property name="cameraMinZoom" value="0.65" />
+	<property name="cameraMaxZoom" value="1.0" />	
+	<property name="cameraZoomDuration" value="0.35" />
+
+	<property name="cameraMinZoomPhone" value="0.90" />
+	<property name="cameraMaxZoomPhone" value="1.25" />
+	
+	<property name="gameNumObjectsToFind" value="5" />
+	
+	<property name="gameNumObjectsToFindToUnlockBonus1" value="2" />
+	<property name="gameNumObjectsToFindToUnlockBonus2" value="4" />
+	
+	<property name="reshuffleItemsCooldown" value="30" />
+	
+	<property name="spyVisionCooldownDuration" value="30" />
+	<property name="spyVisionDuration" value="30" />
+	<property name="spyVisionMinSpinSpeed" value="20" />
+	<property name="spyVisionMaxSpinSpeed" value="1440" />
+	<property name="spyVisionMinSpinDistance" value="0" />
+	<property name="spyVisionMaxSpinDistance" value="900" />
+
+	<property name="minHiddenObjectHitboxSizeX" value="25" />
+	<property name="minHiddenObjectHitboxSizeY" value="25" />
+
+	<property name="minHiddenObjectMobileHitboxSizeX" value="60" />
+	<property name="minHiddenObjectMobileHitboxSizeY" value="60" />
+
+	<property name="level1NumRounds" value="1"/>
+	<proeprty name="level2NumRounds" value="1"/>
+	<property name="level3NumRounds" value="2"/>
+	<property name="level4NumRounds" value="3"/>
+	<property name="level5NumRounds" value="3"/>
+	
+</gameConfig>

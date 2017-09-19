@@ -1,0 +1,239 @@
+<composition
+	backgroundName=""
+	backgroundBaseName="level5Bg"
+	offsetX="0"
+	offsetY="0">
+	
+	<hiddenObject
+		id="lvl5ArchitecturalPlans1"
+		className="lvl5ArchitecturalPlans1"
+		imageName="lvl5ArchitecturalPlans1"
+		thumbnailName="lvl5ArchitecturalPlans1"
+		x="60"
+		y="416"/>
+		
+	<hiddenObject
+		id="lvl5Laptop1"
+		className="lvl5Laptop1"
+		imageName="lvl5Laptop1"
+		thumbnailName="lvl5Laptop1"
+		x="20"
+		y="682"/>
+		
+	<hiddenObject
+		id="lvl5BuggedLamp1"
+		className="lvl5BuggedLamp1"
+		imageName="lvl5BuggedLamp1"
+		thumbnailName="lvl5BuggedLamp1"
+		x="1021"
+		y="689"/>
+		
+	<hiddenObject
+		id="lvl5LaserGun1"
+		className="lvl5LaserGun1"
+		imageName="lvl5LaserGun1"
+		thumbnailName="lvl5LaserGun1"
+		x="190"
+		y="574"/>
+		
+	<hiddenObject
+		id="lvl5Safe1"
+		className="lvl5Safe1"
+		imageName="lvl5Safe1"
+		thumbnailName="lvl5Safe1"
+		x="697"
+		y="578"/>
+		
+	<hiddenObject
+		id="lvl5SpyFish1"
+		className="lvl5SpyFish1"
+		imageName="lvl5SpyFish1"
+		thumbnailName="lvl5SpyFish1"
+		x="239"
+		y="792"/>
+		
+	<hiddenObject
+		id="lvl5BatteryCharger1"
+		className="lvl5BatteryCharger1"
+		imageName="lvl5BatteryCharger1"
+		thumbnailName="lvl5BatteryCharger1"
+		x="104"
+		y="795"/>
+		
+	<hiddenObject
+		id="lvl5BatteryCharger2"
+		className="lvl5BatteryCharger2"
+		imageName="lvl5BatteryCharger2"
+		thumbnailName="lvl5BatteryCharger2"
+		x="855"
+		y="371"/>
+		
+	<hiddenObject
+		id="lvl5BatteryCharger3"
+		className="lvl5BatteryCharger3"
+		imageName="lvl5BatteryCharger3"
+		thumbnailName="lvl5BatteryCharger3"
+		x="1451"
+		y="744"/>
+		
+	<hiddenObject
+		id="lvl5BatteryCharger4"
+		className="lvl5BatteryCharger4"
+		imageName="lvl5BatteryCharger4"
+		thumbnailName="lvl5BatteryCharger4"
+		x="233"
+		y="276"/>
+		
+	<hiddenObject
+		id="lvl5BatteryCharger5"
+		className="lvl5BatteryCharger5"
+		imageName="lvl5BatteryCharger5"
+		thumbnailName="lvl5BatteryCharger5"
+		x="323"
+		y="626"/>
+		
+	<hiddenObject
+		id="lvl5SecurityCamera1"
+		className="lvl5SecurityCamera1"
+		imageName="lvl5SecurityCamera1"
+		thumbnailName="lvl5SecurityCamera1"
+		x="55"
+		y="249"/>
+		
+	<hiddenObject
+		id="lvl5SecurityCamera2"
+		className="lvl5SecurityCamera2"
+		imageName="lvl5SecurityCamera2"
+		thumbnailName="lvl5SecurityCamera2"
+		x="1406"
+		y="518"/>
+		
+	<hiddenObject
+		id="lvl5SecurityCamera3"
+		className="lvl5SecurityCamera3"
+		imageName="lvl5SecurityCamera3"
+		thumbnailName="lvl5SecurityCamera3"
+		x="720"
+		y="96"/>
+		
+	<hiddenObject
+		id="lvl5CellPhone1"
+		className="lvl5CellPhone1"
+		imageName="lvl5CellPhone1"
+		thumbnailName="lvl5CellPhone1"
+		x="29"
+		y="375"/>
+		
+	<hiddenObject
+		id="lvl5CellPhone2"
+		className="lvl5CellPhone2"
+		imageName="lvl5CellPhone2"
+		thumbnailName="lvl5CellPhone2"
+		x="1067"
+		y="852"/>
+		
+	<hiddenObject
+		id="lvl5CellPhone3"
+		className="lvl5CellPhone3"
+		imageName="lvl5CellPhone3"
+		thumbnailName="lvl5CellPhone3"
+		x="333"
+		y="501"/>
+	
+	<hiddenObject
+		id="lvl5SecurityPanel"
+		className="lvl5SecurityPanel"
+		imageName="lvl5SecurityPanel"
+		thumbnailName="lvl5SecurityPanel"
+		x="523"
+		y="47"/>
+
+	<hiddenObject
+		id="lvl5Vase"
+		className="lvl5Vase"
+		imageName="lvl5Vase"
+		thumbnailName="lvl5Vase"
+		x="466"
+		y="848"/>
+
+	<hiddenObject
+		id="lvl5Painting1"
+		className="lvl5Painting1"
+		imageName="lvl5Painting1"
+		thumbnailName="lvl5Painting1"
+		x="743"
+		y="123"/>
+
+	<hiddenObject
+		id="lvl5Painting2"
+		className="lvl5Painting2"
+		imageName="lvl5Painting2"
+		thumbnailName="lvl5Painting2"
+		x="360"
+		y="87"/>
+
+	<hiddenObject
+		id="lvl5Painting3"
+		className="lvl5Painting3"
+		imageName="lvl5Painting3"
+		thumbnailName="lvl5Painting3"
+		x="218"
+		y="194"/>
+
+	<hiddenObject
+		id="lvl5PianoChair"
+		className="lvl5PianoChair"
+		imageName="lvl5PianoChair"
+		thumbnailName="lvl5PianoChair"
+		x="994"
+		y="624"/>
+
+	<hiddenObject
+		id="lvl5Tv1"
+		className="lvl5Tv1"
+		imageName="lvl5Tv1"
+		thumbnailName="lvl5Tv1Thumb"
+		x="884"
+		y="798"/>
+
+	<hiddenObject
+		id="lvl5Tv2"
+		className="lvl5Tv2"
+		imageName="lvl5Tv2"
+		thumbnailName="lvl5Tv2Thumb"
+		x="222"
+		y="459"/>
+
+	<hiddenObject
+		id="lvl5Crook1"
+		className="lvl5Crook1"
+		imageName="lvl5Crook1"
+		thumbnailName="lvl5Crook1Thumb"
+		x="147"
+		y="832"/>
+
+	<hiddenObject
+		id="lvl5Crook2"
+		className="lvl5Crook2"
+		imageName="lvl5Crook2"
+		thumbnailName="lvl5Crook2Thumb"
+		x="1426"
+		y="815"/>
+
+	<hiddenObject
+		id="lvl5PreppyDude"
+		className="lvl5PreppyDude"
+		imageName="lvl5PreppyDude"
+		thumbnailName="lvl5PreppyDudeThumb"
+		x="374"
+		y="497"/>
+
+	<hiddenObject
+		id="lvl5OldLadyTeal"
+		className="lvl5OldLadyTeal"
+		imageName="lvl5OldLadyTeal"
+		thumbnailName="lvl5OldLadyTealThumb"
+		x="871"
+		y="449"/>
+	
+</composition>

@@ -1,0 +1,365 @@
+<?xml version="1.0" ?>
+<loadBatch name="loadScreenBatchPreload" basePath="./media">
+	<asset name="loadingScreenHtml" path="/html/loading_screen.html" type="Other"/>	
+	<asset name="loadingBG" path="/images/loading/kcu-loading-bg.png" type="Image" />
+	<asset name="loadingBar" path="/images/loading/kcu-loading-fill.png" type="Image" />
+</loadBatch>
+
+<loadBatch name="loadBatchPreload" basePath="./media">		
+					
+	<asset name="ipadLandscapeHtml" path="/html/ipad_landscape.html" type="Other" />
+	<asset name="iphoneLandscapeHtml" path="/html/iphone_landscape.html" type="Other" />
+
+	<asset name="screenHeader" path="/images/ui/kcu-ui-header.png" type="Image"/>
+	<asset name="overlay" path="/images/ui/kcu-ui-overlay.png" type="Image"/>
+
+	<asset name="titleScreenBg" path="/images/ui/title_screen/kcu-splash-bg.png" type="Image"/>
+	<asset name="titleScreenCharacters" path="/images/ui/title_screen/kcu-splash-characters.png" type="Image"/>
+	<asset name="playButton" path="/images/ui/kcu-ui-btn-play.png" type="Image"/>
+	<asset name="resetButton" path="/images/ui/kcu-ui-btn-restart.png" type="Image"/>
+
+	<asset name="gameLogo" path="/../images/localized/kcu-splash-logo.png" type="Image"/>
+	<asset name="gameLogoSmall" path="/../images/localized/kcu-logo-game-small.png" type="Image"/>
+	<asset name="showLogo" path="/../images/localized/kcu-logo-show.png" type="Image"/>
+
+	<asset name="checkBtn" path="/images/ui/kcu-ui-btn-check.png" type="Image"/>
+
+	<asset name="storyBg" path="/images/ui/story_screen/kcu-story-bg.png" type="Image"/>
+	<asset name="storyPageImage1" path="/images/ui/story_screen/kcu-story-img-kc.png" type="Image"/>
+	<asset name="storyPageImage2" path="/images/ui/story_screen/kcu-story-img-judy.png" type="Image"/>
+	<asset name="storySkipBtn" path="/images/ui/story_screen/kcu-story-btn-skip.png" type="Image"/>
+
+	<asset name="levelSelectBg" path="/images/ui/kcu-ui-ls-bg.png" type="Image"/>
+	<asset name="levelSelectButton" path="/images/ui/kcu-ui-ls-marker.png" type="Image"/>
+	<asset name="levelSelectButtonLocked" path="/images/ui/kcu-ui-ls-marker-locked.png" type="Image"/>
+	<asset name="levelSelectButtonHighlight" path="/images/ui/kcu-ls-highlight.png" type="Image"/>
+
+	<asset name="popUpBox" path="/images/ui/kcu-ui-po-up-box.png" type="Image"/>
+
+	<asset name="backBtn" path="/images/ui/kcu-ui-btn-back.png" type="Image"/>
+
+	<asset name="homeButton" path="/images/ui/kcu-ui-btn-home.png" type="Image"/>
+
+	<asset name="resumeBtn" path="/images/ui/kcu-ui-btn-resume.png" type="Image"/>
+	<asset name="menuSoundBtnOn" path="/images/ui/kcu-ui-btn-sound.png" type="Image"/>
+	<asset name="menuSoundBtnOff" path="/images/ui/kcu-ui-btn-sound-off.png" type="Image"/>
+	<asset name="menuHelpBtn" path="/images/ui/kcu-ui-btn-help.png" type="Image"/>
+	<asset name="menuQuitBtn" path="/images/ui/kcu-ui-btn-quit.png" type="Image"/>
+
+	<asset name="overlay" path="/images/ui/overlay.png" type="Image"/>
+	<asset name="foundIcon" path="/images/ui/found_icon.png" type="Image"/>
+	<asset name="foundHighlight" path="/images/hud/kcu-hud-highlight.png" type="Image"/>
+	<asset name="foundMarker" path="/images/ui/kcu-hud-found-marker.png" type="Image"/>
+	<asset name="spyVisionReticule" path="/images/hud/kcu-hud-spy-vision-reticle.png" type="Image"/>
+
+	<asset name="gameCompleteBg" path="/images/ui/kcu-game-complete-bg.png" type="Image"/>
+
+	<asset name="animatedTransition" path="/images/ui/kcu-ui-transition.png" type="Image"/>
+	
+	<asset name="music_love2beat_1" 		path="/sound/music_love2beat_1.mp3" 	type="Audio"/>
+	
+	<asset name="ui_click_1" 						path="/sound/ui_click_1.mp3" 					type="Audio"/>
+	<asset name="ui_find_1" 						path="/sound/ui_find_1.mp3" 					type="Audio"/>
+	<asset name="ui_jessie_1" 					path="/sound/ui_jessie_1.mp3" 				type="Audio"/>
+	<asset name="ui_shuffle_1" 					path="/sound/ui_shuffle_1.mp3" 				type="Audio"/>
+	<asset name="ui_zoom_1" 					path="/sound/ui_zoom_1.mp3" 					type="Audio"/>
+	<asset name="ui_zoom_2" 					path="/sound/ui_zoom_2.mp3" 					type="Audio"/>
+	<asset name="ui_transition_1" 				path="/sound/ui_transition_1.mp3" 			type="Audio"/>
+	<asset name="ui_spy_1" 						path="/sound/ui_spy_1.mp3" 					type="Audio"/>
+	<asset name="ui_spy_2" 						path="/sound/ui_spy_2.mp3" 					type="Audio"/>
+	<asset name="ui_score_1" 					path="/sound/ui_score_1.mp3" 					type="Audio"/>
+	<asset name="ui_score_2" 					path="/sound/ui_score_2.mp3" 					type="Audio"/>
+	
+
+</loadBatch>
+
+<loadBatch name="gameplayLoad" basePath="./media">
+	
+	<asset name="levelIntroBg" path="/images/ui/kcu-ui-pop-up-level-intro.png" type="Image"/>
+
+	<asset name="levelCompleteKC" path="/images/ui/kcu-ui-level-complete-kc.png" type="Image"/>
+
+	<asset name="hudFooter" path="/images/hud/kcu-hud-footer.png" type="Image"/>
+	<asset name="hudMenuBtn" path="/images/hud/kcu-hud-btn-menu.png" type="Image"/>
+	<asset name="hudReShuffleBtn" path="/images/hud/kcu-hud-footer-btn-reshuffle.png" type="Image"/>
+	<asset name="hudSpyVisionBtn" path="/images/hud/kcu-hud-footer-btn-spy-vision.png" type="Image"/>
+	<asset name="hudButtonOverlay" path="/images/hud/kcu-hud-footer-btn-overlay.png" type="Image"/>
+	<asset name="hudItemFrame" path="/images/hud/kcu-hud-item-frame.png" type="Image"/>
+	<asset name="hudScoreFooter" path="/images/hud/kcu-hud-score-bg.png" type="Image"/>
+	<asset name="hudFrameHighlight" path="/images/hud/kcu-hud-footer-doc-highlight.png" type="Image"/>
+
+	<asset name="hiddenObjectFound" path="/images/ui/kcu-hud-found-marker.png" type="Image"/>
+	<asset name="sideObjectiveBg" path="/images/ui/kcu-hud-side-objective-bg.png" type="Image"/>
+	<asset name="sideObjectiveCraigIcon" path="/images/ui/kcu-hud-side-objective-craig.png" type="Image"/>
+	<asset name="sideObjectiveErnieIcon" path="/images/ui/kcu-hud-side-objective-ernie.png" type="Image"/>
+	<asset name="sideObjectiveKiraIcon" path="/images/ui/kcu-hud-side-objective-kira.png" type="Image"/>
+	<asset name="sideObjectiveCloseButton" path="/images/ui/kcu-hud-side-objective-x-btn.png" type="Image"/>
+
+	<asset name="bonusFanfareShadow" path="/images/ui/kcu-hud-bonus-black-bg.png" type="Image"/>
+
+	<asset name="tutorialArrow" path="/images/ui/kcu_tutorial_arrow.png" type="Image"/>
+	<asset name="tutorialCloseBtn" path="/images/ui/kcu_tutorial_btn_close.png" type="Image"/>
+	<asset name="tutorialNextBtn" path="/images/ui/kcu_tutorial_btn_next_green.png" type="Image"/>
+
+</loadBatch>
+
+<loadBatch name="level1Load" basePath="./media">
+	<asset name="level1Composition" path="/xml/compositions/level_1_composition.xml" type="Other" />
+
+	<asset name="level1BgBotLeft" path="/images/levels/level1/kcu-lvl-1-bg-bot-left.png" type="Image"/>
+	<asset name="level1BgBotRight" path="/images/levels/level1/kcu-lvl-1-bg-bot-right.png" type="Image"/>
+	<asset name="level1BgTopLeft" path="/images/levels/level1/kcu-lvl-1-bg-top-left.png" type="Image"/>
+	<asset name="level1BgTopRight" path="/images/levels/level1/kcu-lvl-1-bg-top-right.png" type="Image"/>
+
+	<asset name="lvl1Briefcase" path="/images/levels/level1/kcu-lvl-1-briefcase.png" type="Image"/>
+	<asset name="lvl1ClassifiedDocs" path="/images/levels/level1/kcu-lvl-1-classified-docs.png" type="Image"/>
+	<asset name="lvl1Computer1" path="/images/levels/level1/kcu-lvl-1-computer-1.png" type="Image"/>
+	<asset name="lvl1Computer2" path="/images/levels/level1/kcu-lvl-1-computer-2.png" type="Image"/>
+	<asset name="lvl1LipStick" path="/images/levels/level1/kcu-lvl-1-lipstick.png" type="Image"/>
+	<asset name="lvl1Phone1" path="/images/levels/level1/kcu-lvl-1-phone-1.png" type="Image"/>
+	<asset name="lvl1Phone2" path="/images/levels/level1/kcu-lvl-1-phone-2.png" type="Image"/>
+	<asset name="lvl1Phone3" path="/images/levels/level1/kcu-lvl-1-phone-3.png" type="Image"/>
+	<asset name="lvl1Phone4" path="/images/levels/level1/kcu-lvl-1-phone-4.png" type="Image"/>
+	<asset name="lvl1Phone5" path="/images/levels/level1/kcu-lvl-1-phone-5.png" type="Image"/>
+	<asset name="lvl1SpyGuy" path="/images/levels/level1/kcu-lvl-1-spy-guy.png" type="Image"/>
+	<asset name="lvl1SpyGuyThumb" path="/images/levels/level1/kcu-lvl-1-spy-guy-thumb.png" type="Image"/>
+	<asset name="lvl1TieGuy" path="/images/levels/level1/kcu-lvl-1-tie-guy.png" type="Image"/>
+	<asset name="lvl1TieGuyThumb" path="/images/levels/level1/kcu-lvl-1-tie-guy-thumb.png" type="Image"/>
+	<asset name="lvl1SpyJanitor" path="/images/levels/level1/kcu-lvl-1-spy-janitor.png" type="Image"/>
+	<asset name="lvl1SpyJanitorThumb" path="/images/levels/level1/kcu-lvl-1-spy-janitor-thumb.png" type="Image"/>
+	<asset name="lvl1GirlPurpleSweater" path="/images/levels/level1/kcu-lvl-1-girl-headDown.png" type="Image"/>
+	<asset name="lvl1KidGreenJacket" path="/images/levels/level1/kcu-lvl-1-kid-greenjacket.png" type="Image"/>
+	<asset name="lvl1NerdyGirl" path="/images/levels/level1/kcu-lvl-1-girl-nerdyglasses.png" type="Image"/>
+	<asset name="lvl1KidOnPhone" path="/images/levels/level1/kcu-lvl-1-kid-talkingphone.png" type="Image"/>
+	<asset name="lvl1KidOnPhoneThumb" path="/images/levels/level1/kcu-lvl-1-kid-talkingphone_thumb.png" type="Image"/>
+
+	<asset name="amb_school_1" 						path="/sound/amb_school_1.mp3" 						type="Audio"/>
+	<asset name="music_level_1" 					path="/sound/music_sleuth_1.mp3" 						type="Audio"/>
+</loadBatch>
+
+<loadBatch name="level2Load" basePath="./media">
+	<asset name="level2Composition" path="/xml/compositions/level_2_composition.xml" type="Other" />
+
+	<asset name="level2BgBotLeft" path="/images/levels/level2/kcu-lvl-2-bg-bot-left.png" type="Image"/>
+	<asset name="level2BgBotRight" path="/images/levels/level2/kcu-lvl-2-bg-bot-right.png" type="Image"/>
+	<asset name="level2BgTopLeft" path="/images/levels/level2/kcu-lvl-2-bg-top-left.png" type="Image"/>
+	<asset name="level2BgTopRight" path="/images/levels/level2/kcu-lvl-2-bg-top-right.png" type="Image"/>
+
+	<asset name="lvl2Bone1" path="/images/levels/level2/kcu-lvl-2-bone-1.png" type="Image"/>
+	<asset name="lvl2Bone2" path="/images/levels/level2/kcu-lvl-2-bone-2.png" type="Image"/>
+	<asset name="lvl2Bone3" path="/images/levels/level2/kcu-lvl-2-bone-3.png" type="Image"/>
+	<asset name="lvl2Camera1" path="/images/levels/level2/kcu-lvl-2-camera-1.png" type="Image"/>
+	<asset name="lvl2Camera2" path="/images/levels/level2/kcu-lvl-2-camera-2.png" type="Image"/>
+	<asset name="lvl2Camera3" path="/images/levels/level2/kcu-lvl-2-camera-3.png" type="Image"/>
+	<asset name="lvl2Camera4" path="/images/levels/level2/kcu-lvl-2-camera-4.png" type="Image"/>
+	<asset name="lvl2Camera5" path="/images/levels/level2/kcu-lvl-2-camera-5.png" type="Image"/>
+	<asset name="lvl2Camera6" path="/images/levels/level2/kcu-lvl-2-camera-6.png" type="Image"/>
+	<asset name="lvl2Pot1" path="/images/levels/level2/kcu-lvl-2-pot-1.png" type="Image"/>
+	<asset name="lvl2Pot2" path="/images/levels/level2/kcu-lvl-2-pot-2.png" type="Image"/>
+	<asset name="lvl2Pot3" path="/images/levels/level2/kcu-lvl-2-pot-3.png" type="Image"/>
+	<asset name="lvl2SpyGlasses" path="/images/levels/level2/kcu-lvl-2-spyglasses.png" type="Image"/>
+	<asset name="lvl2SpyWatch" path="/images/levels/level2/kcu-lvl-2-spywatch.png" type="Image"/>
+
+	<asset name="lvl2Artifact1" path="/images/levels/level2/kcu-lvl-2-artifact_1.png" type="Image"/>
+	<asset name="lvl2Artifact1Thumb" path="/images/levels/level2/kcu-lvl-2-screen-artifact_1.png" type="Image"/>
+	<asset name="lvl2Artifact2" path="/images/levels/level2/kcu-lvl-2-artifact_2.png" type="Image"/>
+	<asset name="lvl2Artifact2Thumb" path="/images/levels/level2/kcu-lvl-2-screen-artifact_2.png" type="Image"/>
+	<asset name="lvl2Artifact3" path="/images/levels/level2/kcu-lvl-2-artifact_3.png" type="Image"/>
+	<asset name="lvl2Artifact3Thumb" path="/images/levels/level2/kcu-lvl-2-screen-artifact_3.png" type="Image"/>
+	<asset name="lvl2Artifact4" path="/images/levels/level2/kcu-lvl-2-artifact_4.png" type="Image"/>
+	<asset name="lvl2Artifact4Thumb" path="/images/levels/level2/kcu-lvl-2-screen-artifact_4.png" type="Image"/>
+	<asset name="lvl2Artifact5" path="/images/levels/level2/kcu-lvl-2-artifact_5.png" type="Image"/>
+	<asset name="lvl2Artifact5Thumb" path="/images/levels/level2/kcu-lvl-2-screen-artifact_5.png" type="Image"/>
+	<asset name="lvl2Artifact6" path="/images/levels/level2/kcu-lvl-2-artifact_6.png" type="Image"/>
+	<asset name="lvl2Artifact6Thumb" path="/images/levels/level2/kcu-lvl-2-screen-artifact_6.png" type="Image"/>
+	<asset name="lvl2CameraGuy" path="/images/levels/level2/kcu-lvl-2-spy-w-camera.png" type="Image"/>
+	<asset name="lvl2CameraGuyThumb" path="/images/levels/level2/kcu-lvl-2-spy-w-camera-thumb.png" type="Image"/>
+	<asset name="lvl2KidYellowJacket" path="/images/levels/level2/kcu-lvl-2-kid-yellowshirt.png" type="Image"/>
+	<asset name="lvl2KidYellowJacketThumb" path="/images/levels/level2/kcu-lvl-2-kid-yellowshirt-thumb.png" type="Image"/>
+	<asset name="lvl2KidSecondFloor" path="/images/levels/level2/kcu-lvl-2-kid-secondfloor.png" type="Image"/>
+	<asset name="lvl2KidSecondFloorThumb" path="/images/levels/level2/kcu-lvl-2-kid-secondfloor-thumb.png" type="Image"/>
+	
+	<asset name="crowd_1" 						path="/sound/crowd_1.mp3" 									type="Audio"/>
+	<asset name="music_level_2" 					path="/sound/music_scandal_1.mp3" 					type="Audio"/>
+	
+</loadBatch>
+
+<loadBatch name="level3Load" basePath="./media">
+	<asset name="level3Composition" path="/xml/compositions/level_3_composition.xml" type="Other" />
+
+	<asset name="level3BgBotLeft" path="/images/levels/level3/kcu-lvl-3-bg-bot-left.png" type="Image"/>
+	<asset name="level3BgBotRight" path="/images/levels/level3/kcu-lvl-3-bg-bot-right.png" type="Image"/>
+	<asset name="level3BgTopLeft" path="/images/levels/level3/kcu-lvl-3-bg-top-left.png" type="Image"/>
+	<asset name="level3BgTopRight" path="/images/levels/level3/kcu-lvl-3-bg-top-right.png" type="Image"/>
+
+	<asset name="lvl3FlashDrive1" path="/images/levels/level3/kcu-lvl-3-flashdrive_v1.png" type="Image"/>
+	<asset name="lvl3FlashDrive2" path="/images/levels/level3/kcu-lvl-3-flashdrive_v2.png" type="Image"/>
+	<asset name="lvl3FlashDrive3" path="/images/levels/level3/kcu-lvl-3-flashdrive_v3.png" type="Image"/>
+	<asset name="lvl3FlashDrive4" path="/images/levels/level3/kcu-lvl-3-flashdrive_v4.png" type="Image"/>
+	<asset name="lvl3FlashDrive5" path="/images/levels/level3/kcu-lvl-3-flashdrive_v5.png" type="Image"/>
+
+	<asset name="lvl3PowerSocket1" path="/images/levels/level3/kcu-lvl-3-power-socket_v1.png" type="Image"/>
+	<asset name="lvl3PowerSocket2" path="/images/levels/level3/kcu-lvl-3-power-socket_v2.png" type="Image"/>
+	<asset name="lvl3PowerSocket3" path="/images/levels/level3/kcu-lvl-3-power-socket_v3.png" type="Image"/>
+
+	<asset name="lvl3Camera1" path="/images/levels/level3/kcu-lvl-3-sec-camera_v1.png" type="Image"/>
+	<asset name="lvl3Camera2" path="/images/levels/level3/kcu-lvl-3-sec-camera_v2.png" type="Image"/>
+	<asset name="lvl3Camera3" path="/images/levels/level3/kcu-lvl-3-sec-camera_v3.png" type="Image"/>
+
+	<asset name="lvl3FlightManifest1" path="/images/levels/level3/kcu-lvl-3-flight-manifest.png" type="Image"/>
+	
+	<asset name="lvl3Laptop1" path="/images/levels/level3/kcu-lvl-3-laptop.png" type="Image"/>
+	
+	<asset name="lvl3MetalDetector1" path="/images/levels/level3/kcu-lvl-3-metal-detector.png" type="Image"/>
+	<asset name="lvl3MetalDetector1Thumb" path="/images/levels/level3/kcu-lvl-3-metal-detector-thumb.png" type="Image"/>
+
+	<asset name="lvl3FlightAttendant" path="/images/levels/level3/kcu-lvl-3-spy-flight-attendant.png" type="Image"/>
+	<asset name="lvl3FlightAttendantThumb" path="/images/levels/level3/kcu-lvl-3-spy-flight-attendant-thumb.png" type="Image"/>
+
+	<asset name="lvl3SecurityGuard" path="/images/levels/level3/kcu-lvl-3-spy-security.png" type="Image"/>
+	<asset name="lvl3SecurityGuardThumb" path="/images/levels/level3/kcu-lvl-3-spy-security-thumb.png" type="Image"/>
+
+	<asset name="lvl3Atm1" path="/images/levels/level3/kcu-lvl-3-atm.png" type="Image"/>
+	<asset name="lvl3Atm1Thumb" path="/images/levels/level3/kcu-lvl-3-atm-thumb.png" type="Image"/>
+
+	<asset name="lvl3Spyglasses" path="/images/levels/level3/kcu-lvl-3-spyglasses.png" type="Image"/>
+	<asset name="lvl3Spywatch" path="/images/levels/level3/kcu-lvl-3-spywatch.png" type="Image"/>
+
+	<asset name="lvl3Headphones" path="/images/levels/level3/kcu-lvl-3-headphones.png" type="Image"/>
+	<asset name="lvl3HazardSign" path="/images/levels/level3/kcu-lvl-3-hazard-sign.png" type="Image"/>
+	<asset name="lvl3NewspaperGuy" path="/images/levels/level3/kcu-lvl-3-guy-newspaper.png" type="Image"/>
+	<asset name="lvl3NewspaperGuyThumb" path="/images/levels/level3/kcu-lvl-3-guy-newspaper-thumb.png" type="Image"/>
+	<asset name="lvl3GuyBackpack" path="/images/levels/level3/kcu-lvl-3-guy-backpack.png" type="Image"/>
+	<asset name="lvl3GuyBackpackThumb" path="/images/levels/level3/kcu-lvl-3-guy-backpack-thumb.png" type="Image"/>
+	<asset name="lvl3GirlBackpack" path="/images/levels/level3/kcu-lvl-3-girl-backpackred.png" type="Image"/>
+	<asset name="lvl3GirlBackpackThumb" path="/images/levels/level3/kcu-lvl-3-girl-backpackred-thumb.png" type="Image"/>
+
+	<asset name="amb_airport_1" 					path="/sound/amb_airport_1.mp3" 						type="Audio"/>
+	<asset name="music_level_3" 					path="/sound/music_hunt4pierre_1.mp3" 				type="Audio"/>
+	
+	
+</loadBatch>
+
+<loadBatch name="level4Load" basePath="./media">
+	<asset name="level4Composition" path="/xml/compositions/level_4_composition.xml" type="Other" />
+
+	<asset name="level4BgBotLeft" path="/images/levels/level4/kcu-lvl-4-bg-bot-left.png" type="Image"/>
+	<asset name="level4BgBotRight" path="/images/levels/level4/kcu-lvl-4-bg-bot-right.png" type="Image"/>
+	<asset name="level4BgTopLeft" path="/images/levels/level4/kcu-lvl-4-bg-top-left.png" type="Image"/>
+	<asset name="level4BgTopRight" path="/images/levels/level4/kcu-lvl-4-bg-top-right.png" type="Image"/>
+
+	<asset name="lvl4GPSTracker1" path="/images/levels/level4/kcu-lvl-4-gps_tracker_v1.png" type="Image"/>
+	<asset name="lvl4GPSTracker2" path="/images/levels/level4/kcu-lvl-4-gps_tracker_v2.png" type="Image"/>
+	<asset name="lvl4GPSTracker3" path="/images/levels/level4/kcu-lvl-4-gps_tracker_v3.png" type="Image"/>
+	<asset name="lvl4GPSTracker4" path="/images/levels/level4/kcu-lvl-4-gps_tracker_v4.png" type="Image"/>
+	<asset name="lvl4GPSTracker5" path="/images/levels/level4/kcu-lvl-4-gps_tracker_v5.png" type="Image"/>
+
+	<asset name="lvl4HandHeldCam1" path="/images/levels/level4/kcu-lvl-4-handheld_cam_v1.png" type="Image"/>
+	<asset name="lvl4HandHeldCam2" path="/images/levels/level4/kcu-lvl-4-handheld_cam_v2.png" type="Image"/>
+	<asset name="lvl4HandHeldCam3" path="/images/levels/level4/kcu-lvl-4-handheld_cam_v3.png" type="Image"/>
+
+	<asset name="lvl4Camera1" path="/images/levels/level4/kcu-lvl-4-sec-cam_v1.png" type="Image"/>
+	<asset name="lvl4Camera2" path="/images/levels/level4/kcu-lvl-4-sec-cam_v2.png" type="Image"/>
+	<asset name="lvl4Camera3" path="/images/levels/level4/kcu-lvl-4-sec-cam_v3.png" type="Image"/>
+	<asset name="lvl4Camera4" path="/images/levels/level4/kcu-lvl-4-sec-cam_v4.png" type="Image"/>
+
+	<asset name="lvl4FishCam1" path="/images/levels/level4/kcu-lvl-4-fish-cam.png" type="Image"/>
+
+	<asset name="lvl4Laptop1" path="/images/levels/level4/kcu-lvl-4-laptop.png" type="Image"/>
+
+	<asset name="lvl4SpyDocs1" path="/images/levels/level4/kcu-lvl-4-spydocs.png" type="Image"/>
+
+	<asset name="lvl4Spy1" path="/images/levels/level4/kcu-lvl-4-spy-v1.png" type="Image"/>
+	<asset name="lvl4Spy1Thumb" path="/images/levels/level4/kcu-lvl-4-spy-v1-thumb.png" type="Image"/>
+	<asset name="lvl4Spy2" path="/images/levels/level4/kcu-lvl-4-spy-v2.png" type="Image"/>
+	<asset name="lvl4Spy2Thumb" path="/images/levels/level4/kcu-lvl-4-spy-v2-thumb.png" type="Image"/>
+
+	<asset name="lvl4Spywatch" path="/images/levels/level4/kcu-lvl-4-spywatch.png" type="Image"/>
+
+	<asset name="lvl4WiretappedLamp1" path="/images/levels/level4/kcu-lvl-4-wiretapped-lamp.png" type="Image"/>
+	<asset name="lvl4WiretappedLamp1Thumb" path="/images/levels/level4/kcu-lvl-4-wiretapped-lamp-thumb.png" type="Image"/>
+
+	<asset name="lvl4WiretrapDoor1" path="/images/levels/level4/kcu-lvl-4-wiretrap-door-v1.png" type="Image"/>
+	<asset name="lvl4WiretrapDoor1Thumb" path="/images/levels/level4/kcu-lvl-4-wiretrap-door-v1-thumb.png" type="Image"/>
+	<asset name="lvl4WiretrapDoor2" path="/images/levels/level4/kcu-lvl-4-wiretrap-door-v2.png" type="Image"/>
+	<asset name="lvl4WiretrapDoor2Thumb" path="/images/levels/level4/kcu-lvl-4-wiretrap-door-v2-thumb.png" type="Image"/>
+
+	<asset name="lvl4BookStack1" path="/images/levels/level4/kcu-lvl-4-bookstack1.png" type="Image"/>
+	<asset name="lvl4BookStack2" path="/images/levels/level4/kcu-lvl-4-bookstack2.png" type="Image"/>
+	<asset name="lvl4FoodTray" path="/images/levels/level4/kcu-lvl-4-tray-of-food.png" type="Image"/>
+	<asset name="lvl4OldLady" path="/images/levels/level4/kcu-lvl-4-lady-eating.png" type="Image"/>
+	<asset name="lvl4BlueDressLady" path="/images/levels/level4/kcu-lvl-4-lady-blue-dress.png" type="Image"/>
+	<asset name="lvl4BlueDressLadyThumb" path="/images/levels/level4/kcu-lvl-4-lady-blue-dress-thumb.png" type="Image"/>
+	<asset name="lvl4Waiter" path="/images/levels/level4/kcu-lvl-4-waiter.png" type="Image"/>
+	<asset name="lvl4WaiterThumb" path="/images/levels/level4/kcu-lvl-4-waiter-thumb.png" type="Image"/>
+	<asset name="lvl4BlondeGirl" path="/images/levels/level4/kcu-lvl-4-blonde-girl-eating.png" type="Image"/>
+	<asset name="lvl4BlondeGirlThumb" path="/images/levels/level4/kcu-lvl-4-blonde-girl-eating-thumb.png" type="Image"/>
+	<asset name="lvl4OldMan" path="/images/levels/level4/kcu-lvl-4-old-man.png" type="Image"/>
+	<asset name="lvl4GingerGirl" path="/images/levels/level4/kcu-lvl-4-lady-ginger-girl.png" type="Image"/>
+	<asset name="lvl4GingerGirlThumb" path="/images/levels/level4/kcu-lvl-4-lady-ginger-girl-thumb.png" type="Image"/>
+
+	<asset name="amb_benimama_1" 			path="/sound/amb_benimama_1.mp3" 						type="Audio"/>
+	<asset name="music_level_4" 					path="/sound/music_scandal_1.mp3" 					type="Audio"/>
+	
+	
+</loadBatch>
+
+<loadBatch name="level5Load" basePath="./media">
+	<asset name="level5Composition" path="/xml/compositions/level_5_composition.xml" type="Other" />
+
+	<asset name="level5BgBotLeft" path="/images/levels/level5/kcu-lvl-5-bg-bot-left.png" type="Image"/>
+	<asset name="level5BgBotRight" path="/images/levels/level5/kcu-lvl-5-bg-bot-right.png" type="Image"/>
+	<asset name="level5BgTopLeft" path="/images/levels/level5/kcu-lvl-5-bg-top-left.png" type="Image"/>
+	<asset name="level5BgTopRight" path="/images/levels/level5/kcu-lvl-5-bg-top-right.png" type="Image"/>
+
+	<asset name="lvl5ArchitecturalPlans1" path="/images/levels/level5/kcu-lvl-5-architectural-plans.png" type="Image"/>
+	
+	<asset name="lvl5BatteryCharger1" path="/images/levels/level5/kcu-lvl-5-battery_charger_v1.png" type="Image"/>
+	<asset name="lvl5BatteryCharger2" path="/images/levels/level5/kcu-lvl-5-battery_charger_v2.png" type="Image"/>
+	<asset name="lvl5BatteryCharger3" path="/images/levels/level5/kcu-lvl-5-battery_charger_v3.png" type="Image"/>
+	<asset name="lvl5BatteryCharger4" path="/images/levels/level5/kcu-lvl-5-battery_charger_v4.png" type="Image"/>
+	<asset name="lvl5BatteryCharger5" path="/images/levels/level5/kcu-lvl-5-battery_charger_v5.png" type="Image"/>
+	
+	<asset name="lvl5CellPhone1" path="/images/levels/level5/kcu-lvl-5-cell-phone_v1.png" type="Image"/>
+	<asset name="lvl5CellPhone2" path="/images/levels/level5/kcu-lvl-5-cell-phone_v2.png" type="Image"/>
+	<asset name="lvl5CellPhone3" path="/images/levels/level5/kcu-lvl-5-cell-phone_v3.png" type="Image"/>
+	
+	<asset name="lvl5Laptop1" path="/images/levels/level5/kcu-lvl-5-laptop.png" type="Image"/>
+	
+	<asset name="lvl5BuggedLamp1" path="/images/levels/level5/kcu-lvl-5-l-bugged-lamp.png" type="Image"/>
+	
+	<asset name="lvl5LaserGun1" path="/images/levels/level5/kcu-lvl-5-l-lazer-gun.png" type="Image"/>
+	
+	<asset name="lvl5SecurityPanel1" path="/images/levels/level5/kcu-lvl-5-l-security-panel.png" type="Image"/>
+	
+	<asset name="lvl5Safe1" path="/images/levels/level5/kcu-lvl-5-l-safe.png" type="Image"/>
+	
+	<asset name="lvl5SpyFish1" path="/images/levels/level5/kcu-lvl-5-l-spy-fish.png" type="Image"/>
+	
+	<asset name="lvl5SecurityCamera1" path="/images/levels/level5/kcu-lvl-5-sec-cam_v1.png" type="Image"/>
+	<asset name="lvl5SecurityCamera2" path="/images/levels/level5/kcu-lvl-5-sec-cam_v2.png" type="Image"/>
+	<asset name="lvl5SecurityCamera3" path="/images/levels/level5/kcu-lvl-5-sec-cam_v3.png" type="Image"/>
+
+	<asset name="lvl5SecurityPanel" path="/images/levels/level5/kcu-lvl-5-l-security-panel.png" type="Image"/>
+	<asset name="lvl5Vase" path="/images/levels/level5/kcu-lvl-5-l-vase.png" type="Image"/>
+	<asset name="lvl5Painting1" path="/images/levels/level5/kcu-lvl-5-painting-v1.png" type="Image"/>
+	<asset name="lvl5Painting2" path="/images/levels/level5/kcu-lvl-5-painting-v2.png" type="Image"/>
+	<asset name="lvl5Painting3" path="/images/levels/level5/kcu-lvl-5-painting-v3.png" type="Image"/>
+	<asset name="lvl5PianoChair" path="/images/levels/level5/kcu-lvl-5-piano-chair.png" type="Image"/>
+	<asset name="lvl5Tv1" path="/images/levels/level5/kcu-lvl-5-l-tv-v1.png" type="Image"/>
+	<asset name="lvl5Tv1Thumb" path="/images/levels/level5/kcu-lvl-5-l-tv-v1-thumb.png" type="Image"/>
+	<asset name="lvl5Tv2" path="/images/levels/level5/kcu-lvl-5-l-tv-v2.png" type="Image"/>
+	<asset name="lvl5Tv2Thumb" path="/images/levels/level5/kcu-lvl-5-l-tv-v2-thumb.png" type="Image"/>
+	<asset name="lvl5Crook1" path="/images/levels/level5/kcu-lvl-5-crook-v1.png" type="Image"/>
+	<asset name="lvl5Crook1Thumb" path="/images/levels/level5/kcu-lvl-5-crook-v1-thumb.png" type="Image"/>
+	<asset name="lvl5Crook2" path="/images/levels/level5/kcu-lvl-5-crook-v2.png" type="Image"/>
+	<asset name="lvl5Crook2Thumb" path="/images/levels/level5/kcu-lvl-5-crook-v2-thumb.png" type="Image"/>
+	<asset name="lvl5PreppyDude" path="/images/levels/level5/kcu-lvl-5-grey-suit.png" type="Image"/>
+	<asset name="lvl5PreppyDudeThumb" path="/images/levels/level5/kcu-lvl-5-grey-suit-thumb.png" type="Image"/>
+	<asset name="lvl5OldLadyTeal" path="/images/levels/level5/kcu-lvl-5-old-lady.png" type="Image"/>
+	<asset name="lvl5OldLadyTealThumb" path="/images/levels/level5/kcu-lvl-5-old-lady-thumb.png" type="Image"/>
+	
+	<asset name="music_level_5" 					path="/sound/music_sleuth_1.mp3" 						type="Audio"/>
+	
+	
+</loadBatch>
